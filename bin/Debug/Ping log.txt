@@ -1,0 +1,2 @@
+Svarstid: 8 ms
+Svarstid: 4 ms

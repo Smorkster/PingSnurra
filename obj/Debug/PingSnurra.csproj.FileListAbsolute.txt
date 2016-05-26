@@ -1,0 +1,8 @@
+H:\PingSnurra\obj\Debug\PingSnurra.csprojResolveAssemblyReference.cache
+H:\PingSnurra\obj\Debug\PingSnurra.MainForm.resources
+H:\PingSnurra\obj\Debug\PingSnurra.csproj.GenerateResource.Cache
+H:\PingSnurra\bin\Debug\PingSnurra.exe.config
+H:\PingSnurra\bin\Debug\PingSnurra.exe
+H:\PingSnurra\bin\Debug\PingSnurra.pdb
+H:\PingSnurra\obj\Debug\PingSnurra.exe
+H:\PingSnurra\obj\Debug\PingSnurra.pdb
