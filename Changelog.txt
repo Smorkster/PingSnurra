@@ -1,4 +1,16 @@
-﻿Version 1.0
+﻿Version 1.1
+***********
+Added exceptionhandling for IP-address parsing
+Added settings
+Now always shows how many pings have been done
+Now shows scrollbars only if necessary
+Added documentation
+If no text is entered in a checked option, use default values
+Added a struct for default options for easier management
+Added checkbox to show/hide pingsettings
+Settings are hidden by default
+
+Version 1.0
 ***********
 Initial release
 Added all IPStatus messages from MSDN
