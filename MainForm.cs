@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Drawing;
 using System.IO;
 using System.Net;
@@ -196,31 +195,31 @@ namespace PingSnurra
 		void btnStartPing_Click (object sender, EventArgs e)
 		{
 			ping = true;
-			if (ping)
-			{
-				try
-				{
-					IPHostEntry hostInfo = Dns.GetHostEntry(txtAddress.Text);
-					IPAddress adress;
-					setPingOptions();
 
-					pingsmade = 0;
-					if (IPAddress.TryParse(txtAddress.Text, out adress))
-					{
-						txtPingLog.AppendText("Starts pinging " + txtAddress.Text + " (starttime " + DateTime.Now + ")\r\n");
-						pingTimer.Start();
-					} else
-					{
-						txtPingLog.AppendText("Starts pinging " + txtAddress.Text + " at IP: " + hostInfo.AddressList[hostInfo.AddressList.Length - 1] + " (starttime " + DateTime.Now + ")\r\n");
-						pingTimer.Start();
-					}
-					btnStartPing.Enabled = false;
-					btnStopPing.Enabled = true;
-					txtPingLog.Cursor = Cursors.WaitCursor;
-				} catch (SocketException se)
+			checkboxSettings.Enabled = false;
+			btnSaveLog.Enabled = false;
+			try
+			{
+				IPHostEntry hostInfo = Dns.GetHostEntry(txtAddress.Text);
+				IPAddress adress;
+				setPingOptions();
+
+				pingsmade = 0;
+				if (IPAddress.TryParse(txtAddress.Text, out adress))
 				{
-					txtPingLog.AppendText("************************\r\nError:\r\n" + se.Message + "\r\n************************\r\n");
+					txtPingLog.AppendText("Starts pinging " + txtAddress.Text + " (starttime " + DateTime.Now + ")\r\n");
+					pingTimer.Start();
+				} else
+				{
+					txtPingLog.AppendText("Starts pinging " + txtAddress.Text + " at IP: " + hostInfo.AddressList[hostInfo.AddressList.Length - 1] + " (starttime " + DateTime.Now + ")\r\n");
+					pingTimer.Start();
 				}
+				btnStartPing.Enabled = false;
+				btnStopPing.Enabled = true;
+				txtPingLog.Cursor = Cursors.WaitCursor;
+			} catch (SocketException se)
+			{
+				txtPingLog.AppendText("************************\r\nError:\r\n" + se.Message + "\r\n************************\r\n");
 			}
 		}
 

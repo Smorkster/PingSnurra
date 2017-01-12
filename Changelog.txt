@@ -1,4 +1,9 @@
-﻿Version 1.1
+﻿Version 1.2
+***********
+Removed unnecessary if statement when starting ping
+Now disables checkboxSettings and btnSaveLog when ping starts
+
+Version 1.1
 ***********
 Added exceptionhandling for IP-address parsing
 Added settings

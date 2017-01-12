@@ -6,3 +6,11 @@ H:\PingSnurra\bin\Debug\PingSnurra.exe
 H:\PingSnurra\bin\Debug\PingSnurra.pdb
 H:\PingSnurra\obj\Debug\PingSnurra.exe
 H:\PingSnurra\obj\Debug\PingSnurra.pdb
+H:\Programmering\PingSnurra\bin\Debug\PingSnurra.exe.config
+H:\Programmering\PingSnurra\bin\Debug\PingSnurra.exe
+H:\Programmering\PingSnurra\bin\Debug\PingSnurra.pdb
+H:\Programmering\PingSnurra\obj\Debug\PingSnurra.csprojResolveAssemblyReference.cache
+H:\Programmering\PingSnurra\obj\Debug\PingSnurra.MainForm.resources
+H:\Programmering\PingSnurra\obj\Debug\PingSnurra.csproj.GenerateResource.Cache
+H:\Programmering\PingSnurra\obj\Debug\PingSnurra.exe
+H:\Programmering\PingSnurra\obj\Debug\PingSnurra.pdb

@@ -183,7 +183,6 @@ namespace PingSnurra
 			this.groupboxSettings.TabIndex = 12;
 			this.groupboxSettings.TabStop = false;
 			this.groupboxSettings.Text = "Ping settings (unchecked means default values)";
-			this.groupboxSettings.Hide();
 			// 
 			// txtNumPings
 			// 
